@@ -1,0 +1,43 @@
+node-p-locate (5.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+
+ -- Yadd <yadd@debian.org>  Sat, 23 Oct 2021 08:12:28 +0200
+
+node-p-locate (5.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Update standards version to 4.1.1, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto install
+  * Update copyright
+  * New upstream version 5.0.0
+  * Enable upstream test
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 30 Oct 2020 22:23:55 +0100
+
+node-p-locate (2.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #873790)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 31 Aug 2017 12:47:08 +0530
