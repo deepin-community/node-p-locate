@@ -1,3 +1,90 @@
+node-p-locate (6.0.0-12) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-p-locate: Add Multi-Arch: foreign.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 20:50:58 +0000
+
+node-p-locate (6.0.0-11) unstable; urgency=medium
+
+  * Team upload
+  * Fix test to match node expecting esm on *.js
+  * Add p-limit to extlinks
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 01 May 2022 23:04:25 +0200
+
+node-p-locate (6.0.0-10) unstable; urgency=medium
+
+  * Team upload
+  * Better commonjs export
+
+ -- Yadd <yadd@debian.org>  Fri, 08 Apr 2022 18:14:10 +0200
+
+node-p-locate (6.0.0-9) unstable; urgency=medium
+
+  * Team upload
+  * Build commonjs files (Closes: #1008908)
+
+ -- Yadd <yadd@debian.org>  Mon, 04 Apr 2022 06:10:25 +0200
+
+node-p-locate (6.0.0-8) unstable; urgency=medium
+
+  * Team upload
+  * Really require nodejs 14 for autopkgtest
+
+ -- Yadd <yadd@debian.org>  Fri, 01 Apr 2022 11:13:30 +0200
+
+node-p-locate (6.0.0-7) unstable; urgency=medium
+
+  * Team upload
+  * Require nodejs 14 for test
+
+ -- Yadd <yadd@debian.org>  Wed, 30 Mar 2022 10:24:29 +0200
+
+node-p-locate (6.0.0-6) unstable; urgency=medium
+
+  * Team upload
+  * Add Breaks node-locate-path < 7
+
+ -- Yadd <yadd@debian.org>  Wed, 30 Mar 2022 10:15:24 +0200
+
+node-p-locate (6.0.0-5) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable after successful tests
+
+ -- Yadd <yadd@debian.org>  Tue, 29 Mar 2022 10:29:14 +0200
+
+node-p-locate (6.0.0-4) experimental; urgency=medium
+
+  * Team upload
+  * Require node-p-limit >= 4
+
+ -- Yadd <yadd@debian.org>  Sun, 27 Mar 2022 17:15:43 +0200
+
+node-p-locate (6.0.0-3) experimental; urgency=medium
+
+  * Team upload
+  * Drop Breaks field due to circular dependency
+
+ -- Yadd <yadd@debian.org>  Sun, 27 Mar 2022 14:22:43 +0200
+
+node-p-locate (6.0.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Indicate that p-locate 6 breaks node-locate-path < 7
+
+ -- Yadd <yadd@debian.org>  Fri, 25 Mar 2022 15:52:23 +0100
+
+node-p-locate (6.0.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 6.0.0
+  * Update test patch
+
+ -- Yadd <yadd@debian.org>  Wed, 23 Mar 2022 17:07:42 +0100
+
 node-p-locate (5.0.0-2) unstable; urgency=medium
 
   * Team upload
